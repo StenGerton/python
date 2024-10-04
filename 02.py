@@ -1,16 +1,54 @@
-
+from math import *
 #Sen-Gerton Tiitmaa
 #30.09.24
 #harjutus 02
 
 
+#kolmnurga ümbermõõt
+a = int(input("lisa arv: "))
+b = int(input("lisa arv: "))
+c = int(input("lisa arv: "))
+p=a+b+c
+print("kolmnurga ümbermõõt on", p, "ühikut")
+
+
+
+
+#toote hind
+tootehind = 36.75
+ale = 0.4
+soodushind = tootehind - (tootehind * ale)
+kogus = 3
+kokku = soodushind * kogus
+print(kokku)
+
+
+
+#5. pitsa
+hind = 14.19
+hind1 = hind / 3
+print("igaüks maksab", hind1, "€")
+
+
+
+
+
+
+#6 rulluisutajad 90km/h
+kiirus = 29.9
+aeg=24/60
+dist= kiirus * aeg
+print("Rulluisutaja jõuab:",dist,"km kaugusele")
+
+
+
 
 
 #hüpotenuus **
- a,b = 16,9
-c = sqrt(a)
+a,b = 16,9
+c = sqrt(a**2 + b**2)
 print("Hüpotenuus on:",c)
-ruutjuur = (arv)
+
 
 
 
