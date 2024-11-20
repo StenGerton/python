@@ -24,6 +24,7 @@ print(konto_haldur(100, "deposiit", konto))
 
 
 
+
 # kytus = lambda kytusekulu, kaugus: (kytusekulu / 100) * kaugus
 # print(kytus(5, 150))
 

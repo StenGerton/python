@@ -75,13 +75,13 @@ def suvaline():
     pass
 
 if kujundid == 1:
-    viisnurk()
+    viisnurk(kujunditeArv)
 elif kujundid == 2:
-    ring()
+    ring(kujunditeArv)
 elif kujundid == 3:
-    ruut(arv)
+    ruut(kujunditeArv)
 else:
-    suvaline()
+    suvaline(kujunditeArv)
 
 
 turtle.done()
