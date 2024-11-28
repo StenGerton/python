@@ -17,9 +17,14 @@ try:
     os.mkdir(y+"_"+str(i+1))
 except:
     print("Kataloogid juba olemas!")
-
+valik = input("lisa Kataloogi nimi kustuamiseks")
 print(os.lisdir)
 
+except:
+    print("sellist kataloogi ei saa kustutada!")
 
-
+items = os.listdir()
+for item in items:
+    if os.path.isdir(item):
+        print(item)
 
